@@ -422,7 +422,7 @@ a:hover {
 	display: block;
 	opacity: 1;
 	filter : saturate(0);
-	width: 100%;
+	width: 225px;
 	max-width: 350px;
 	height: 300px;
 	object-fit: cover;
