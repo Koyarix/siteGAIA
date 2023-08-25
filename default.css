@@ -1,0 +1,629 @@
+/*********************************************************************************/
+/* PAGE PRINCIPALE                                                                       */
+/*********************************************************************************/
+
+body {
+	font-family:"Montserrat Alternates";
+	margin: auto;
+	padding: 0px;
+	background-color: #8FBD8F;
+	font-size: 12pt;
+	font-weight: 300;
+}
+
+#header-wrapper {
+	background: url(images/banner.jpg) no-repeat center;
+	background-size: cover;
+}
+#header {
+	margin : 50px 0 0 0; /*bande verte*/
+	text-align : center;
+	padding: 1% 0 0 0;
+}
+.container {
+    margin: 50px;
+    text-align:left ;
+}
+
+#logo_gaia {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	padding: -5px;
+}
+.logo_gaia {
+	margin-top: 0;
+	width: 100px;
+	filter: invert();
+}
+
+nav {
+	padding: 0;
+	margin :0;
+}
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 0;
+	font-size: 20%;
+}
+.menu-button:hover {
+	background-color: rgba(143,189,143,0.7);
+	border-radius: 5px;
+}
+.menu-button {
+	background: none;
+	border : none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	top: 10px; left: 0px;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.menu-button_actif {
+	background-color: rgba(143, 189, 143, 0.7);
+	border : none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	top: 10px; left: 0px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border-radius: 5px;
+}
+
+#banner {
+	padding: 1em 0 5em 0;
+	text-align: center;
+	margin: 0 9%;
+}
+#banner h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 400%;
+	color: transparent;
+	font-family: "Arial";
+	-webkit-text-stroke: 2px white;
+	text-stroke: 2px white;
+	letter-spacing: 7px;
+}
+#banner p{
+	margin : 50px 250px 0 250px;
+	color: white;
+	text-align: center;
+	font-family: "Montserrat Alternates";
+}
+
+.logo_reseau {
+	width:50px;
+	padding: 20px;
+	filter : invert();
+}
+
+footer {
+	background-color: darkseagreen;
+	letter-spacing: 0.20em;
+	color: white;
+	padding: 2em 0;
+	margin: 0;
+}
+.logo_footer {
+	width: 30px;
+	filter : invert();
+}
+.container_footer {
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+	margin: 0 9%
+}
+.column_footer {
+	flex-basis: 49%;
+	text-align: right;
+}
+
+.column_footer h2{
+	text-align: left;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+}
+.column_footer h3{
+	text-align: left;
+	font-family: "Montserrat Alternates";
+	font-size: 12px;
+}
+.column_footer p{
+	text-align: right;
+	font-family: "Montserrat Alternates";
+	font-size: 12px;
+}
+.column_footer a{
+	text-decoration: none;
+	color: lightgrey;
+	text-align: right;
+}
+
+
+.text{
+	text-align : center;
+	font-size: 17px;
+	font-weight: 200;
+	line-height: 25px;
+	margin : 0 9% 5% 9%;
+
+}
+.text_column{
+	margin : 5% 5%;
+	font-size: 100%;
+	line-height: 130%;
+	text-align: justify;
+}
+
+.texte-noir{
+	color : black;
+}
+.texte-blanc{
+	color : white;
+}
+.texte-violetf{
+	color: #513753;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-justify{
+	text-align: justify;
+}
+
+.bg-violet{
+	background-color: #513753;
+}
+.bg-rosef{
+	background-color: #BD8FBD;
+}
+.bg-rosec{
+	background-color: #E2C2ED;
+}
+.bg-vertc{
+	background-color: #8FBD8F;
+}
+.bg-vertf{
+	background-color: #1F573F;
+}
+
+/*********************************************************************************/
+/* INDEX                                                                          */
+/*********************************************************************************/
+
+.section2 {
+	padding: 5% 0 9% 0;
+	background-color: white;
+	text-align: center;
+	margin : 0;
+
+}
+
+.cta-button {
+	background-color: white;
+	color: black;
+	border: black;
+	padding: 10px 20px;
+	border-radius: 2px;
+	border-width: 1.5px;
+	border-style: solid;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin: 5% 0;
+}
+.cta-button:hover {
+	background-color: darkseagreen;
+	color : white;
+	border-color: darkseagreen;
+}
+
+.section3 {
+	padding: 5% 0 3% 0;
+    text-align: center;
+}
+.container2 {
+    display: flex;
+	justify-content: center; /* Centre les éléments horizontalement */
+	margin : 0 9%;
+}
+.bulle {
+	border-radius:50%;
+	padding: 5% 0;
+	filter : saturate(0%);
+	width: 50%;
+}
+.column {
+    flex: 4;
+	text-align: center;
+	float: inherit;
+	margin: 0 1%; /* Ajoute une marge entre les colonnes */
+}
+
+.column h2{
+	color : white;
+	font-family: 'Josefin Sans',sans-serif;
+	text-transform: uppercase;
+	font-size: 120%;
+	letter-spacing : 1px;
+}
+.column p{
+	color : white;
+	font-weight: 100;
+	text-align: justify;
+	font-size: 100%;
+}
+
+
+.column_blog {
+	flex : 3;
+	float: right;
+	width: 100%;
+	margin: 0; /* Ajoute une marge entre les colonnes */
+	justify-content: center;
+
+}
+.column_blog h2{
+	display : table;
+	table-layout: fixed;
+	width : 80%;
+	word-wrap: break-word;
+	font-family: 'Josefin Sans',sans-serif;
+	text-transform: uppercase;
+	font-size: 150%;
+	letter-spacing : 2px;
+	margin : 7% 9%;
+}
+.column_blog h3{
+	font-family: 'Josefin Sans',sans-serif;
+	text-transform: uppercase;
+	font-size: 80%;
+	text-align: center;
+	color: black;
+}
+
+.photo_blog{
+	width: 82%;
+	height: auto;
+}
+.cta-button1 {
+	background-color: white;
+	color: black;
+	border: black;
+	padding: 10px 20px;
+	border-radius: 2px;
+	border-width: 1.5px;
+	border-style: solid;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.cta-button1:hover {
+	background-color: black;
+	color : white;
+	border-color: black;
+}
+
+.titre2{
+    text-align : center;
+    font-size: 350%;
+    font-style: normal;
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing : 5px;
+	margin: 0 9%;
+	display : table;
+	table-layout: fixed;
+	width : 80%;
+	word-wrap: break-word;
+}
+.titre3{
+    font-size: 150%;
+    font-style: normal;
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 1500;
+    text-transform: uppercase;
+	margin: 0 9% 3% 9%;
+}
+.titre4{
+	font-size: 100%;
+	font-style: normal;
+	font-family: 'Josefin Sans',sans-serif;
+	font-weight: 1500;
+	text-transform: uppercase;
+	margin: 0 9% 2% 9%;
+}
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+a {
+	color: transparent;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.image {
+	display: inline-block;
+}
+.image img {
+	display: block;
+	width: 100%;
+}
+
+
+/*********************************************************************************/
+/* DOUBLE-CURSUS                                                                       */
+/*********************************************************************************/
+.container-dc {
+	padding: 70px 0 70px 0;
+}
+.container-blanc{
+	background-color: white;
+}
+.container-vert{
+	background-color: darkseagreen;
+}
+.container-beige{
+	background-color: #CCBDAC;
+}
+.link-noir{
+	color: dimgrey;
+	text-decoration: none;
+	font-style: italic;
+}
+
+/*********************************************************************************/
+/* EVENEMENTS                                                                       */
+/*********************************************************************************/
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 9%;
+}
+.event {
+	margin: 0; /* Ajoute une marge entre les colonnes */
+	text-align: center;
+	padding: 0;
+}
+.event h2{
+	max-width: 200px;
+	margin: 5% auto 2% auto;
+}
+.image-container {
+	display: inline-block;
+	position: relative;
+}
+.image-container img, .event img {
+	display: block;
+	opacity: 1;
+	filter : saturate(0);
+	width: 100%;
+	max-width: 350px;
+	height: 300px;
+	object-fit: cover;
+}
+.image-container .image-text {
+	position: absolute;
+	top: 10%;
+	margin: 0;
+	padding: 10%;
+	color: #513753;
+	font-size: 15px;
+	font-family: 'Josefin Sans',sans-serif;
+	text-align: left;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.3s;
+}
+.image-container:hover .image-text {
+	visibility: visible;
+	opacity: 1;
+}
+.image-container:hover img {
+	opacity: 0.2;
+	filter:
+}
+
+/*********************************************************************************/
+/* BOUTIQUE                                                                       */
+/*********************************************************************************/
+.container_envente {
+	display: flex;
+	justify-content: center; /* Centre les éléments horizontalement */
+	margin : 0 9%;
+}
+.column_envente1 {
+	width: 30%;
+	margin: 1% 0;
+}
+.column_envente1 h2 {
+	text-align: left;
+	margin : 10px 0px 0px 0px;
+	font-family: 'Josefin Sans',sans-serif;
+	font-size: 120%;
+}
+.column_envente2 {
+	width: 100%;
+	margin : 0px 1%;
+}
+.column_envente2 p {
+	text-align: justify;
+	font-size: 14px;
+}
+.column_envente3 {
+	width: 40%;
+}
+.column_envente3 p {
+	text-align: right;
+	margin : 10% 0;
+	font-size: 100%;
+	/*font-family: "Josefin Sans"*/
+
+}
+.column_envente1bis {
+	width: 75%;
+	margin : 0px 0px 0px 0px;
+	/*border-style : solid;*/
+}
+.column_envente1bis h2 {
+	font-size: 18px;
+	text-align: left;
+	margin : 10px 0px 0px 0px;
+}
+.column_envente1bis p {
+	font-size: 14px;
+	text-align: justify;
+	margin : 0px 0px 0px 0px;
+}
+
+/*********************************************************************************/
+/* BLOG                                                                       */
+/*********************************************************************************/
+.separator {
+	border-bottom: 1px solid #ccc;
+	margin: 50px 9%;
+}
+/*********************************************************************************/
+/* RESPONSIVE                                                                       */
+/*********************************************************************************/
+
+@media screen and (max-width: 576px) {
+	#banner h1{
+		font-weight: 1000;
+		font-size: 180%;
+		margin: 0 9%;
+	}
+	.text{
+		font-size: 15px;
+		font-weight: 200;
+		line-height: 19px;
+		margin : 0 9% 5% 9%;
+	}
+
+	#header {
+		padding: 0em;
+	}
+	.logo_reseau {
+		width: 7%;
+		padding: 5%;
+	}
+	.section2 {
+		padding: 30px 0 70px 0;
+	}
+	.section2 h2 {
+		font-size: 250%;
+	}
+	.section2 p {
+		font-size: 100%;
+		margin : 40px 20px;
+		line-height: 25px;
+	}
+	.container2 {
+		flex-direction: column;
+		margin : 0;
+	}
+
+	.bulle {
+		width: 30%;
+		border-radius:50%;
+		padding: 10% 0 5% 0;
+		filter : saturate(0%);
+	}
+	.column {
+		flex : 1;
+		text-align: center;
+	}
+	.column h2{
+		color : white;
+		font-family: 'Josefin Sans',sans-serif;
+		text-transform: uppercase;
+		font-size: 120%;
+		letter-spacing : 1px;
+	}
+	.section3 h2 {
+		margin : 8% 10% 0 10%;
+		font-size: 250%;
+	}
+	.column_blog img{
+		width: 50%;
+		height: auto;
+	}
+	.column_blog h2{
+		margin : 2% 9%;
+		font-size: 170%;
+	}
+	.column_blog p{
+		margin : 0 9% 10% 9%;
+	}
+
+	.container_footer {
+		display: flex;
+		justify-content: center; /* Centre les éléments horizontalement */
+		margin: 0 9%;
+		flex-wrap: wrap;
+		text-align: left;
+	}
+	.logo_footer {
+		width: 6%;
+	}
+	.column_footer {
+		flex-basis: 100%;
+		text-align: left;
+	}
+	.column_footer h2{
+		text-align: left;
+		margin : 2% 0;
+
+		font-family: "Josefin Sans";
+		text-transform: uppercase;
+	}
+	.column_footer h3{
+		text-align: left;
+		font-family: "Montserrat Alternates";
+		font-size: 60%;
+	}
+	.column_footer p{
+		text-align: left;
+		font-family: "Montserrat Alternates";
+		font-size: 8px;
+		margin : 0 0 5% 0;
+	}
+
+	.container_envente{
+		flex-direction: column;
+	}
+	.column_envente1, .column_envente2, .column_envente3, .column_envente1bis{
+		width: 100%;
+		margin: 1% 0;
+	}
+	.column_envente3 p{
+		margin: 0 0 5% 0;
+	}
+
+
+}
